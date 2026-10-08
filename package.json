@@ -1,0 +1,14 @@
+{
+  "name": "forja",
+  "version": "1.0.0",
+  "description": "App de entrenamiento gamificada: XP, niveles, habilidades y misiones",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/engine.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FORJA — Entrená y subí de nivel</title>
+  <meta name="description" content="Tu entrenamiento como un videojuego: XP, niveles, habilidades y misiones para gym, calistenia, cardio y más.">
+  <meta name="theme-color" content="#0d0b1a">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <nav class="nav" aria-label="Principal">
+      <a class="brand" href="#/" aria-label="FORJA, inicio">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 2l12 7v14l-12 7-12-7V9z" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M11 10h11l-1.5 4H16v2.5h4l-1.2 3.5H16V24h-5z" fill="currentColor"/></svg>
+        <span>FORJA</span>
+      </a>
+      <div class="nav-links" id="nav-links"></div>
+      <a class="nav-session" id="nav-session" href="#/entrenar" hidden></a>
+    </nav>
+    <main id="main" tabindex="-1"></main>
+  </div>
+  <div id="rest-bar" class="rest-bar" hidden></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <div id="tooltip" class="tooltip" role="tooltip" hidden></div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
